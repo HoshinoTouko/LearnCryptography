@@ -3,7 +3,7 @@ UPPERLETTERS = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 LETTERS_AND_SPACE = UPPERLETTERS + UPPERLETTERS.lower() + ' \t\n'
 
 def loadDict():
-    dictionaryFile = open('dict.txt')
+    dictionaryFile = open('dictionary.txt')
     englishWords = {}
     for word in dictionaryFile.read().split('\n'):
         englishWords[word] = None
