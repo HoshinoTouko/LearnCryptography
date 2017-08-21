@@ -1,152 +1,47 @@
-This has been a long project, and so many people have been kind enough to help make it come into being, I know I am going to miss some. A complete list can be found in the acknowledgments section of http://www.artofgamedesign.com , but I mention people here who really did more than their share. Nyra and Emma, the loves of my life, who always encouraged me, and put up with years of me staring into space and jotting little notes when I should have been, say, mowing the lawn, doing the dishes, or
-putting out that fire in the backyard. My mother, Susanne Fahringer, who, when I was
-twelve, understood somehow that Dungeons and Dragons was very, very important. My brother, Ben, who taught me how to play Thunder, a card game he invented in a dream when he was four years old. Jeff McGinley, for putting that whole ice cream cone in his mouth. And for putting up with me for
-three decades. Reagan Heller, who worked with me for
-countless hours in countless restau-rants, airplanes, and meeting rooms coming up with visualization ideas for the lens images on the card deck, designed the card layouts, and did graphic design for sev-eral
-aspects of the book.
-Emma Backer, who performed all the Cinderella
-tasks — typesetting the cards, wrangling the card artists, cleaning up and organizing book images,
-tracking down copyright holders, and cleaning the
-ashes from the fireplace.
-The team at Elsevier/Morgan Kaufmann, who kindly let a two-year project take five years: Tim Cox,
-Georgia Kennedy, Beth Millett, Paul Gottehrer, Chris
-Simpson, Laura Lewin, and Kathryn Spencer. Everyone at the Disney VR Studio who put up with my rambling theoretical non-sense conversations for all those years, especially Mike Goslin, Joe Shochet, Mark Mine, David Rose, Bruce Woodside, Felipe
-Lara, Gary Daines, Mk Haley, Daniel Aasheim and
-Jan Wallace.
-The staff, faculty, and students of Carnegie
-Mellon’s Entertainment Technology Center, who graciously let me teach Game Design and Building Virtual Worlds, which forced me to figure all this out.
-Most especially Don Marinelli, Randy Pausch,
-xxi xxi
-ACKNOWLEDGMENTS
-Brenda Harger, Ralph Vituccio, Chris Klug, Charles
-Palmer, Ruth Comley, Josh Yelon, and Drew
-Davidson. Randy Pausch deserves a double thank you, for his magical lens that let him see that Icould do this when
-Ididn’t believe that Icould. Thanks, Randy.
-xxii
-Hello there! Come in, come in! What a nice surprise — Ihad no idea you would be visiting today. I’m sorry if it is a little messy in here, I’ve been writing. Please —
-make yourself comfortable. Good, good. Now let’s see… where should we begin? Oh — Ishould introduce
-myself! My name is Jesse Schell, and I have always loved designing games. Here’s picture of me:
-Iwas shorter then. Since that picture was taken, I’ve done a lot of different things. I’ve worked in circuses as a professional juggler. I’ve been a writer,
-comedian, and magician’s apprentice. I’ve worked at IBM and Bell Communications Research as a software
-engineer. I’ve designed and developed interactive theme park rides and massively multiplayer games for the Walt Disney Company. I’ve started my own game studio, and become a professor at Carnegie Mellon University. But when people ask me what I do, Itell them that Iam a game designer.
-I mention all this only because at various times
-in this book, I will be draw-ing examples from these experiences, since every single one of them has taught me valuable lessons about the art of game design. That might sound surprising now, but hopefully, as you read this book, it will help you see the ways that game design meaningfully connects to the many experiences in your own life.
-xxiii
-HELLO
-One thing I should clarify — while the goal of this book is primarily to teach you how to be a better videogame designer, many of the principles we
-explore will have little to do with videogames specifically — you will find they are more broadly applicable than that. The good news is that much of what you read here will work equally well no matter what kind of game you are designing — digital, analog, or otherwise.
-What is Game Design?
-As we begin, it is important for us to be absolutely
-clear about what is meant by “game design. ” After
-all, it is what the whole rest of the book is about, and some people seem a bit confused about it.
-Game design is the act of deciding what a game should
-be. That’s it. On the surface, it sounds too simple.
-“You mean you design a game by just making one decision? ” No. To decide what a game is, you must make
-hundreds, usually thousands of decisions. “Don’t I need special equipment to design a
-game? ” No. Since game design is simply decision making, you can actually design a game in your head. Usually, though, you will want to write down these decisions, because our memories are weak, and it is easy to miss something important if you don’t write things down. Further, if you want other people to help you make deci-sions, or to help build the game, you need to communicate these decisions to them somehow, and writing them down is a good way to do
-that. “What about programming? Don’t game
-designers have to be computer programmers? ” No, they don’t. First of all, many games can be played without the use of com-puters or technology; board games, card games, and athletic games, for example. Secondly, even for computer games or
-videogames, it is possible to make the deci-sions about what those games should be without knowing all the technical details of how those decisions are carried out. Of course, it can be a tremendous help if you do know these details, just as being a skilled writer or artist can help. This allows you to make better decisions more quickly, but it is not strictly necessary. It is like
-the relationship between architects and carpenters : an architect does not need to know everything the carpenter knows, but an architect must know
-everything the carpenter is capable of. “So, you mean that the game designer just comes up with the story for the game?” No. Story decisions are one aspect of a game design, but there are many, many others. Decisions
-about rules, look and feel, timing, pacing,
-risk-taking, rewards, punishments, and everything else the player experiences is the responsibility of the game
-designer.
-xxiv
-WAITING FOR MENDELEEV
-“So the game designer makes decisions about what the game should be, writes them down, and moves on? ” Almost never. None of us has a perfect imagination, and the games we design in our heads and on paper almost never come out quite the way we expected. Many decisions are impossible to make until the designer has seen the game in action. For this reason, the designer is usually involved in the development of a game from the very beginning to the very end, making decisions about how the game should be all along the way.
-It is important to make the distinction between “game developer ” and “game designer. ” A game developer is anyone who has any involvement with the creation of the game at all. Engineers, animators,
-modelers, musicians, writers, producers and designers who work on games are all game developers. Game designers are just one species of game developer. “So, the game designer is the only one allowed
-to make decisions about the game?”
-Let’s turn that around: Anyone who makes decisions about how the game should be is a game designer. Designer is a role, not a person. Almost
-every developer on a team makes some decisions about how the game will be, just through the act of cre-ating content for the game. These decisions are game design decisions, and when you make them, you are a game designer. For this reason, no matter what your role on a game development team, an understanding of the principles of game design will make you better at what you do.
-Waiting for Mendeleev
-The voyage of discovery is not in seeking new landscapes but in having new eyes.
-— Marcel Proust
-The goal of this book is to make you the best game designer you can be. Unfortunately, at present, there is no “unified theory of game design, ” no simple formula that shows us how to make good games. So what can we do? We are in a position something like the ancient
-alchemists. In the time before Mendeleev discovered
-the periodic table, showing how all the fundamental elements were interrelated, alchemists relied on a
-patchwork quilt of rules of thumb about how
-different chemicals could combine. These were necessarily incomplete, some-times incorrect, and
-often semi-mystical, but by using these rules, the alchemists were able to accomplish surprising things,
-and their pursuit of the truth eventually led to modern
-chemistry.
-Game designers await their Mendeleev. At this point we have no periodic table. We have our own
-patchwork of principles and rules, which, less than perfect, allows us to get the job done. I have tried to
-gather together the best of these into
-xxv
-HELLO
-one place, so that you can study them, consider them, make use of them, and see how others have
-used them. Good game design happens when you view your game from as many perspec-tives as possible. I refer to these perspectives as lenses, because each one is a way of viewing your design. The lenses are small sets of questions you should ask your-self about your design. They are not blueprints or recipes, but tools for examining your design. They will be introduced, one at a time, throughout the book. A deck of cards, with one card summarizing each lens, has been created to accompany this book, and is available at www.artofgamedesign.com, to make it easy to use the lenses while you are designing. None of the lenses are perfect, and none are complete, but each is useful in one context or another, for each gives a unique perspective on your design. The idea is that even though we can’t have one
-complete picture, by taking all of these small imperfect lenses and using them to view your problem from many different perspec-tives, you will be able to use your discretion to figure out the best design. I wish we had one all-seeing lens. We don’t. So, instead
-of discarding the many imperfect ones we do have, it is wisest to collect and use as wide a variety of them as possible, for as we will see, game design is more art than science, more like cooking than chem-istry, and we must admit the possibility that our Mendeleev will never come.
-Focus on Fundamentals
-Many people assume that to best study the principles of game design, one would naturally study the most modern, complex, high-tech games that are available. This approach is completely wrong. Videogames are just a natural growth of tradi-tional games into a new medium. The rules that govern them are still the same. An architect must understand how to design a shed before he can design a skyscraper, and so, we will often be studying some of the very simplest games. Some of these will be videogames, but some will be far simpler: Dice games. Card games. Board games. Playground games. If we cannot understand the principles of these games, how can we have a hope of understanding more complex games? Some will argue that these games are old, and therefore not worth studying, but as Thoreau said, “We might as well omit to study
-Nature because she is old.” A game is a game is a game. The principles that make the classic games fun are the same principles that make the most modern games fun. The classic games have the added
-advantage that they have withstood the tests of time. Their success is not due to the novelty of their technology, which is the case with many modern games. These classic games have deeper qualities that, as game designers, we must learn to understand. As well as a focus on classic games, this book
-will strive to deliver the deep-est and most fundamental principles of game design, as opposed to genre-specific principles (“Fifteen tips for a better story-based first-person shooter! ”), because gen-res come and go, but the basic principles of game design are principles of human psychology that have been with us for ages, and will be with us for ages to come.
-xxvi
-TALK TO STRANGERS
-Well-versed in these fundamentals, you will be able to master any genre that appears, and even invent new genres of your own. As opposed to other books on game design, whose goal often seems to be to cover as much ground as possible, this book will not strive to cover ground, but to teach you to dig in
-the most fertile places. And though this book will teach you principles you will be able to use to create traditional board and card games, it is very much slanted toward the videogame industry. Why? Because a game designer’s job is to create new games. The explo-sion of computer technology over the last thirty years has allowed for innovation in the field of game design such as the world has never seen. There are more game designers alive today than have ever been alive in all of human history. Chances are, if you want to create games, you will be creating them somewhere on the cut-ting edge of this new technology, and this book is prepared to show you how to do just that, although the principles here will work just as well with more traditional game genres.
-Talk to Strangers
-Do not forget to entertain strangers, for by so doing some have unwittingly enter-tained angels
-— Hebrews 13:2
-Game developers have a reputation for xenophobia, that is, fear of strangers. By this I mean
-not unfamiliar individuals, but rather unfamiliar techniques, practices, and principles. It almost seems
-like they believe that if it didn’t originate in the game industry, it isn’t worth considering. The truth is really that game develop-ers are usually just too
-busy to look outside their immediate surroundings. Making good games is hard, so developers keep their
-heads down, stay focused, and get the job done. They usually don’t have the time to seek out new
-techniques, figure out how to integrate them into their games, and take the risk that a new technique might
-fail. So, they play it safe, and stick with what they know, which unfortunately leads to a lot of the “cookie-cutter ” game titles that you see on the market.
-But to succeed, to create something great and innovative, you have to do some-thing different. This is
-not a book about how to make cookie-cutter games. It is a book about how to create great new designs. If you were surprised by the focus this book places on non-computer games, you will be even more surprised to see how it uses principles, methods, and examples from things that aren’t even games.
-Examples from music, architecture, film, science, painting, literature, and everything else under the sun will be pulled in. And why not? Why should we have to develop all our principles from scratch, when hard work has been going on in other fields, sometimes for hundreds or thousands of years? Design principles will come from everywhere because design is everywhere, and design is the same everywhere .
-xxvii
-HELLO
-Not only will this book draw design inspiration from everywhere, it will persuade you to do the same. Everything you know and everything you have experienced is fair game at the game design table.
-It does not make much difference what a person studies. All knowledge is related, and the man who
-studies anything, if he keeps at it, will become
-learned.
-— Hypatia
-The Map
-Game design is not an easy subject to write about. Lenses and fundamentals are useful tools, but to truly understand game design is to understand an
-incredibly complex web of creativity, psychology, art,
-technology, and business. Everything in this web is connected to everything else. Changing one element affects all the oth-ers, and the understanding of one
-element influences the understanding of all of the others. Most experienced designers have built up this web in their minds, slowly, over many years, learning
-the elements and relationships by trial and error. And this is what makes game design so hard to write about. Books are necessarily linear. One idea must be presented at a time. For this reason, many game design books have an incomplete feeling to them — like a guided nighttime tour with a flashlight, the reader sees a lot of interesting things, but can’t really
-comprehend how they all fit together. Game design is an adventure, and adventure needs a map. For this book, I have created a map that shows the web of game design relationships. You can see the complete map near the end of the book, but to see the entire map at once is confusing and overwhelming. Picasso once said, “To create, one must first destroy. ” And so we will. We set everything aside, and begin our map as a blank slate. As we do this, I encourage you, too, to set aside your preconceptions about game design, so that you can
-approach this difficult but fascinating subject with an open mind. Chapter one will begin by adding a single
-element, the designer. Successive chapters will add other elements, one at a time, gradually building up
-the complex system of relationships between designer, player, game, team, and client, so you can see how they fit together, and why they fit together the way
-they do. By the end of the book, you will have, both on paper and in your mind, a map of these relationships. Of course, the map on paper is not the important one — the important one is the one in your mind. And the map is not the territory. It will
-necessarily be imper-fect. But hopefully, after this book helps to create a map of relationships in your mind, you will test your mental map against reality, altering it and augmenting it, as you find parts of it that can be improved. Every designer goes through the journey of building their own personal map of these relationships. If you are new to game
-xxviii
-WHY I HATE BOOKS
-design, this book should be able to give you the beginnings of your map. If you are already a seasoned game designer, I hope that this book can give you some ideas about how to improve the map you have.
-Learning to Think
-Every truth has four corners: as a teacher I give you one corner, and it is for you to find the other three.
-— Confucius
-What is Confucius talking about? Shouldn’t a good teacher show you all four corners, laying
-everything out plainly? No. To truly learn, remember, and under-stand, your mind must be in a
-state of questing, of seeking to find knowledge. If it is not in this state, a state of really wanting to deeply understand, the wisest prin-ciples will roll off you like water off a duck. There will be times in this book
-where things will not be laid out plainly — times where things are intentionally less clear so that when you do uncover the truth, it means something to you.
-There is another reason for this sometimes cryptic approach. As discussed earlier, game design is not an exact science. It is full of mysteries and
-contradic-tions. Our set of lenses will be incomplete and imperfect. To become a great game designer, it is
-not enough to be familiar with the set of principles
-this book has to offer. You must be ready to think for
-yourself, to figure out why certain principles don’t work in certain cases, and to invent new principles of your own. We await our Mendeleev. Perhaps it is you.
-Why IHate Books
-I hate books, for they only teach people to talk
-about what they don’t understand.
-— Jean-Jacques Rousseau
-It is very important to have a balanced approach to
-study and practice.
-— The Dalai Lama
-Please do not think that reading this book, or any book, will make you into a game designer, much
-less a great game designer. Game design is not a set of principles, it is an activity. You could no sooner become a singer, pilot, or bas-ketball player by reading a book than you could become a game designer. There is only one path to becoming a game
-designer, and that is the path of designing
-xxix
-HELLO
-games — and more to the point, designing games that people really like. That means that simply jotting down your game idea isn’t enough. You must build the game, play it yourself, and let others play it. When it doesn’t satisfy (and it won’t), you must
-change it. And change it. And change it again, dozens of times, until you have created a game that people actually enjoy playing. When you have been through this a few times, then you will start to understand what game design is. There’s an saying among game designers: “Your first ten games will suck — so get them out of the way fast.” The principles in this book will help to guide your designs, and give you useful perspectives on how to make better designs faster, but you can only become a good designer through practice. If you are not really inter-ested in becoming a good game designer, put this book down now. It has nothing for you. But if you truly do want to be a game designer, then this book is not an end, but a beginning —the beginning of a continuous process of study, practice, assimilation, and synthesis that is going to last the rest of your life.
+I am happy to join with you today in what will go down in history as the greatest demonstration for freedom in the history of our nation.
+Five score years ago, a great American, in whose symbolic shadow we stand today, signed the Emancipation Proclamation. This momentous decree came as a great beacon light of hope to millions of Negro slaves who had been seared in the flames of withering injustice. It came as a joyous daybreak to end the long night of their captivity.
+But one hundred years later, the Negro still is not free. One hundred years later, the life of the Negro is still sadly crippled by the manacles of segregation and the chains of discrimination. One hundred years later, the Negro lives on a lonely island of poverty in the midst of a vast ocean of material prosperity. One hundred years later, the Negro is still languished in the corners of American society and finds himself an exile in his own land. And so we've come here today to dramatize a shameful condition.
+In a sense we've come to our nation's capital to cash a check. When the architects of our republic wrote the magnificent words of the Constitution and the Declaration of Independence, they were signing a promissory note to which every American was to fall heir. This note was a promise that all men, yes, black men as well as white men, would be guaranteed the "unalienable Rights" of "Life, Liberty and the pursuit of Happiness." It is obvious today that America has defaulted on this promissory note, insofar as her citizens of color are concerned. Instead of honoring this sacred obligation, America has given the Negro people a bad check, a check which has come back marked "insufficient funds."
+But we refuse to believe that the bank of justice is bankrupt. We refuse to believe that there are insufficient funds in the great vaults of opportunity of this nation. And so, we've come to cash this check, a check that will give us upon demand the riches of freedom and the security of justice.
+We have also come to this hallowed spot to remind America of the fierce urgency of Now. This is no time to engage in the luxury of cooling off or to take the tranquilizing drug of gradualism. Now is the time to make real the promises of democracy. Now is the time to rise from the dark and desolate valley of segregation to the sunlit path of racial justice. Now is the time to lift our nation from the quicksands of racial injustice to the solid rock of brotherhood. Now is the time to make justice a reality for all of God's children.
+It would be fatal for the nation to overlook the urgency of the moment. This sweltering summer of the Negro's legitimate discontent will not pass until there is an invigorating autumn of freedom and equality. Nineteen sixty-three is not an end, but a beginning. And those who hope that the Negro needed to blow off steam and will now be content will have a rude awakening if the nation returns to business as usual. And there will be neither rest nor tranquility in America until the Negro is granted his citizenship rights. The whirlwinds of revolt will continue to shake the foundations of our nation until the bright day of justice emerges.
+But there is something that I must say to my people, who stand on the warm threshold which leads into the palace of justice: In the process of gaining our rightful place, we must not be guilty of wrongful deeds. Let us not seek to satisfy our thirst for freedom by drinking from the cup of bitterness and hatred. We must forever conduct our struggle on the high plane of dignity and discipline. We must not allow our creative protest to degenerate into physical violence. Again and again, we must rise to the majestic heights of meeting physical force with soul force.
+The marvelous new militancy which has engulfed the Negro community must not lead us to a distrust of all white people, for many of our white brothers, as evidenced by their presence here today, have come to realize that their destiny is tied up with our destiny. And they have come to realize that their freedom is inextricably bound to our freedom.
+We cannot walk alone.
+And as we walk, we must make the pledge that we shall always march ahead.
+We cannot turn back.
+There are those who are asking the devotees of civil rights, "When will you be satisfied?" We can never be satisfied as long as the Negro is the victim of the unspeakable horrors of police brutality. We can never be satisfied as long as our bodies, heavy with the fatigue of travel, cannot gain lodging in the motels of the highways and the hotels of the cities. *We cannot be satisfied as long as the negro's basic mobility is from a smaller ghetto to a larger one. We can never be satisfied as long as our children are stripped of their self-hood and robbed of their dignity by signs stating: "For Whites Only."* We cannot be satisfied as long as a Negro in Mississippi cannot vote and a Negro in New York believes he has nothing for which to vote. No, no, we are not satisfied, and we will not be satisfied until "justice rolls down like waters, and righteousness like a mighty stream."¹
+I am not unmindful that some of you have come here out of great trials and tribulations. Some of you have come fresh from narrow jail cells. And some of you have come from areas where your quest -- quest for freedom left you battered by the storms of persecution and staggered by the winds of police brutality. You have been the veterans of creative suffering. Continue to work with the faith that unearned suffering is redemptive. Go back to Mississippi, go back to Alabama, go back to South Carolina, go back to Georgia, go back to Louisiana, go back to the slums and ghettos of our northern cities, knowing that somehow this situation can and will be changed.
+Let us not wallow in the valley of despair, I say to you today, my friends.
+And so even though we face the difficulties of today and tomorrow, I still have a dream. It is a dream deeply rooted in the American dream.
+I have a dream that one day this nation will rise up and live out the true meaning of its creed: "We hold these truths to be self-evident, that all men are created equal."
+I have a dream that one day on the red hills of Georgia, the sons of former slaves and the sons of former slave owners will be able to sit down together at the table of brotherhood.
+I have a dream that one day even the state of Mississippi, a state sweltering with the heat of injustice, sweltering with the heat of oppression, will be transformed into an oasis of freedom and justice.
+I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.
+I have a dream today!
+I have a dream that one day, down in Alabama, with its vicious racists, with its governor having his lips dripping with the words of "interposition" and "nullification" -- one day right there in Alabama little black boys and black girls will be able to join hands with little white boys and white girls as sisters and brothers.
+I have a dream today!
+I have a dream that one day every valley shall be exalted, and every hill and mountain shall be made low, the rough places will be made plain, and the crooked places will be made straight; "and the glory of the Lord shall be revealed and all flesh shall see it together."2
+This is our hope, and this is the faith that I go back to the South with.
+With this faith, we will be able to hew out of the mountain of despair a stone of hope. With this faith, we will be able to transform the jangling discords of our nation into a beautiful symphony of brotherhood. With this faith, we will be able to work together, to pray together, to struggle together, to go to jail together, to stand up for freedom together, knowing that we will be free one day.
+And this will be the day -- this will be the day when all of God's children will be able to sing with new meaning:
+My country 'tis of thee, sweet land of liberty, of thee I sing.
+Land where my fathers died, land of the Pilgrim's pride,
+From every mountainside, let freedom ring!
+
+And if America is to be a great nation, this must become true.
+And so let freedom ring from the prodigious hilltops of New Hampshire.
+Let freedom ring from the mighty mountains of New York.
+Let freedom ring from the heightening Alleghenies of Pennsylvania.
+Let freedom ring from the snow-capped Rockies of Colorado.
+Let freedom ring from the curvaceous slopes of California.
+
+But not only that:
+Let freedom ring from Stone Mountain of Georgia.
+Let freedom ring from Lookout Mountain of Tennessee.
+Let freedom ring from every hill and molehill of Mississippi.
+From every mountainside, let freedom ring.
+
+And when this happens, and when we allow freedom ring, when we let it ring from every village and every hamlet, from every state and every city, we will be able to speed up that day when all of God's children, black men and white men, Jews and Gentiles, Protestants and Catholics, will be able to join hands and sing in the words of the old Negro spiritual:
+Free at last! Free at last!
+Thank God Almighty, we are free at last!3
